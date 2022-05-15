@@ -1,7 +1,7 @@
 {
-  "name": "@amir-61/cli-init",
+  "name": "@amir-cli/cli-init",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "init plugin for cli",
   "main": "Init.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "commander": "^9.2.0",
+    "commander": "^8.1.0",
     "fs": "^0.0.1-security"
   },
   "directories": {
