@@ -1,5 +1,5 @@
 {
-  "name": "cli-init",
+  "name": "@amir-61/cli-init",
   "type": "module",
   "version": "1.0.0",
   "description": "init plugin for cli",
@@ -17,5 +17,19 @@
     "chalk": "^4.1.2",
     "commander": "^9.2.0",
     "fs": "^0.0.1-security"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amir-61/cli-init.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "bugs": {
+    "url": "https://github.com/Amir-61/cli-init/issues"
+  },
+  "homepage": "https://github.com/Amir-61/cli-init#readme"
 }
