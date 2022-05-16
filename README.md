@@ -3,6 +3,9 @@ This is the GET plugin for [CLI project](https://github.com/Amir-61/cli).
 
 - **NPM:** [@amir-cli/cli-init](https://www.npmjs.com/package/@amir-cli/cli-init), **GITHUB:** [cli-init](https://github.com/Amir-61/cli-init)
 
+![image](https://user-images.githubusercontent.com/10672146/168502088-21eec0b6-5acc-47b2-a76e-2e898266a0ed.png)
+
+
 # Usages:
  - #### `INIT --object={myStringifiedObjectHere}` :
     will reset the datastore with provided object. For example `INIT --object="{'name':'foo'}"` will set/initialize the datasource with {'name':'foo'}
