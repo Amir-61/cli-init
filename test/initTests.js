@@ -8,15 +8,15 @@ describe('INIT', function () {
       mock({
         'data.json': "",
         'test': {
-          'sampleFileToImport.json': "\"{'test': 'test3'}\"",
+          'sampleFileToImport.json': "\"{'name': 'foo'}\"",
         }
       });
   });
   it('should work with object as an option', async () => {
     const file = `${process.cwd()}/data.json`
-    await init({"object": "{'foo':'bar2'}"})
+    await init({"object": "{'foo':'bar'}"})
     const result = readFileSync(file, 'utf8');
-    assert.deepStrictEqual(JSON.parse(result), { foo: 'bar2' });
+    assert.deepStrictEqual(JSON.parse(result), { foo: 'bar' });
 
   });
   it('should work with filepath as an option', async () => {
@@ -24,7 +24,7 @@ describe('INIT', function () {
     const mockupFile = `${process.cwd()}/data.json`
     await init({"file": importFile})
     const result = readFileSync(mockupFile, 'utf8');
-    assert.notDeepEqual(JSON.parse(result), { test: 'test3' });
+    assert.notDeepEqual(JSON.parse(result), { name: 'foo' });
   });
 
   after(() => {
