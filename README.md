@@ -1,5 +1,5 @@
 # cli-init
-This is the GET plugin for [CLI project](https://github.com/Amir-61/cli).
+This is the INIT plugin for [CLI project](https://github.com/Amir-61/cli).
 
 - **NPM:** [@amir-cli/cli-init](https://www.npmjs.com/package/@amir-cli/cli-init), **GITHUB:** [cli-init](https://github.com/Amir-61/cli-init)
 
